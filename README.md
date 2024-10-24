@@ -46,13 +46,13 @@ The flowchart below illustrates how Slack decides to send a notification, based 
    This function runs all the provided test cases, compares the actual results against the expected outcomes, and prints the results.
 
 ## Slack Notification Logic: The Design Philosophy
+According to Alex Xu, the logic for sending notifications may seem simple at first glance, but it involves a lot of behind-the-scenes complexity. Slack's design aims to strike a balance between notifying users of important events while avoiding unnecessary interruptions. Here’s a quote from Alex Xu that highlights this complexity:
 
-According to Slack Engineering, the logic for sending notifications may seem simple at first glance, but it involves a lot of behind-the-scenes complexity. Slack's design aims to strike a balance between notifying users of important events while avoiding unnecessary interruptions. Here’s a quote from Slack Engineering that highlights this complexity:
+> Flowchart of how Slack decides to send a notification
+> It is a great example of why a simple feature may take much longer to develop than many people think.
+> When we have a great design, users may not notice the complexity because it feels like the feature just working as intended."
+> – Alex Xu on LinkedIn
 
-> "Flowchart of how Slack decides to send a notification  
-> It is a great example of why a simple feature may take much longer to develop than many people think.  
-> When we have a great design, users may not notice the complexity because it feels like the feature just working as intended."  
-> – Slack Engineering Blog
 
 ## Running the Code
 
